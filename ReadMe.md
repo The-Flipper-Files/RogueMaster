@@ -27,16 +27,23 @@ This software is for experimental purposes only and is not meant for any illegal
 
 <a name="latest">
 
-## Latest Updates - [PATREON: Latest Release RM1109-2243-0.93.1-c129f73](https://www.patreon.com/RogueMaster?filters[tag]=Latest%20Release)
+## Latest Updates - [PATREON: Latest Release RM1114-0050-0.93.9-1725454](https://www.patreon.com/RogueMaster?filters[tag]=Latest%20Release)
 
-- Last Synced/Checked OFW, changes in [commits](https://github.com/flipperdevices/flipperzero-firmware/commits/dev): `2023-11-10 13:43 EST`
-- Last Synced/Checked Unleashed, changes in [changelog](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/CHANGELOG.md): `2023-11-10 13:43 EST`
+- Last Synced/Checked OFW, changes in [commits](https://github.com/flipperdevices/flipperzero-firmware/commits/dev): `2023-11-14 23:55 EST`
+- Last Synced/Checked Unleashed, changes in [changelog](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/CHANGELOG.md): `2023-11-14 23:55 EST`
 - [Switched to cleaner animation loader (By Leeroy)](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/commit/b651299ee1968cfa2b8b82f894b0375a8455e039)
 - [Changed a few minor text strings to shutdown and update (By Leeroy)](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/commit/dd6f294157d78f3e9b8694cf263e48eaa98f0966)
 - OFW: [Infrared remote button index support #3180 (By gsurkov)](https://github.com/flipperdevices/flipperzero-firmware/pull/3180) (Added to refactors build)
 - [New NFC MF Keys (By z3r0l1nk)](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/commit/e8d1d955a4a49b76980750c2dd728d69c1382394)
 - Assets: [Included sample Infrared remote and IR file for Vizio (has a different button set than Roku - By RogueMaster)](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/commit/552fc71d86533976eba6312670788a1bc849344a)
 - UL PR: [Fix naming in iButton #649 (By krolchonok)](https://github.com/DarkFlippers/unleashed-firmware/pull/649)
+- Updated: [HEX Viewer v2.0 (By QtRoS)](https://github.com/QtRoS/flipperzero-firmware)
+- UL PR: Updated: [Bluetooth/USB Remote v1.6 (By Cutch)-OFW](https://github.com/flipperdevices/flipperzero-firmware/pull/1330) [Added movie menu + minor tunes #26 (By hryamzik)](https://github.com/xMasterX/all-the-plugins/pull/26)
+- Updated: [ESP32 Gravity v1.0 (By chris-bc)](https://github.com/chris-bc/Flipper-Gravity)
+- Added: [Questions v1.0 (By nikilark)](https://github.com/nikilark/flipper_questions)
+- Updated: [BLE Spam v4.2 (By Willy-JL & ECTO-1A & Spooks4576 with research from xMasterX; OFW API thanks to noproto)](https://github.com/noproto/apple_ble_spam_ofw)
+- Added: [WHC SWIO Flasher v1.0 (By sukvojte)](https://github.com/sukvojte/wch_swio_flasher)
+- OFW PR: [Add Mastercode SubGHz Protocol #3187 (By flipperzelebro)](https://github.com/flipperdevices/flipperzero-firmware/pull/3187)
 
 <a name="release">
 
@@ -253,6 +260,7 @@ $ ./fbt dolphin_ext
 - [Nu Pogodi! (Ну, погоди!) v1.2 (By sionyx)](https://github.com/sionyx/flipper_nupogodi)
 - [Paint v1.1 (By n-o-T-I-n-s-a-n-e)](https://github.com/n-o-T-I-n-s-a-n-e)
 - [Pong v1.2 (By nmrr)](https://github.com/nmrr/flipperzero-pong) [(Patched By SimplyMinimal)](https://github.com/nmrr/flipperzero-pong/pull/2)
+- [Questions v1.0 (By nikilark)](https://github.com/nikilark/flipper_questions)
 - [Race v1.1 (By zyuhel)](https://github.com/zyuhel/flipperzero-racegame)
 - [Reaction Test (By Milk-Cool)](https://github.com/Milk-Cool/fz-reaction-game)
 - [Reaction Time (By ihatecsv)](https://github.com/ihatecsv/flipper_reaction_time)
@@ -300,8 +308,8 @@ $ ./fbt dolphin_ext
 - [BarCode Scanner Emulator (By polarikus)](https://github.com/polarikus/flipper-zero_bc_scanner_emulator) `Uses: COM-port`
 - [Battery Checker (By Programistich)](https://github.com/Programistich/battery_checker)
 - [BG Loader (By twisted-pear)](https://github.com/twisted-pear/bgloader)
-- [BLE Spam v4.1 (By Willy-JL & ECTO-1A & Spooks4576 with research from xMasterX; OFW API thanks to noproto)](https://github.com/noproto/apple_ble_spam_ofw)
-- [Bluetooth/USB Remote v1.5 (By Cutch)-OFW](https://github.com/flipperdevices/flipperzero-firmware/pull/1330) [Accelerated Mouse Pointer (By LeeroysHub)](https://github.com/LeeroysHub/flipperzero-firmware-wPlugins/commit/f67680d5b004a72419550a8268802030a8421643)
+- [BLE Spam v4.2 (By Willy-JL & ECTO-1A & Spooks4576 with research from xMasterX; OFW API thanks to noproto)](https://github.com/noproto/apple_ble_spam_ofw)
+- [Bluetooth/USB Remote v1.6 (By Cutch)-OFW](https://github.com/flipperdevices/flipperzero-firmware/pull/1330) [Accelerated Mouse Pointer (By LeeroysHub)](https://github.com/LeeroysHub/flipperzero-firmware-wPlugins/commit/f67680d5b004a72419550a8268802030a8421643)
 - [BPM Tapper v1.1 (By panki27)](https://github.com/panki27/bpm-tapper)
 - [Brainfuck v1.1 (By nymda)](https://github.com/nymda/FlipperZeroBrainfuck)
 - [BT Remote for Kodi (Remixed By coded-with-claws)](https://github.com/coded-with-claws/flipperzero-tools/tree/main/applications_user/bt_hid_kodi)
@@ -339,7 +347,7 @@ $ ./fbt dolphin_ext
 - [ESP32 Evil Portal v0.2 (By bigbrodude6119)](https://github.com/bigbrodude6119/flipper-zero-evil-portal) [Changes By leedave]( https://github.com/leedave/flipper-zero-evil-portal/tree/leedave/ap_rename/flipper/flipper-evil-portal)
 - [ESP Flasher v1.2 (By 0xchocolate)](https://github.com/0xchocolate/flipperzero-esp-flasher)
 - [ESP WiFi Scanner v1.1 (By SequoiaSan)](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module-ESP8266) `Req: ESP8266 or ESP32`
-- [ESP32 Gravity v0.6 (By chris-bc)](https://github.com/chris-bc/Flipper-Gravity)
+- [ESP32 Gravity v1.0 (By chris-bc)](https://github.com/chris-bc/Flipper-Gravity)
 - [ESP32 WIFI Mapping (By carvilsi)](https://github.com/carvilsi/flipper0-wifi-map) `Req: ESP32` & [ESP32 FW](https://github.com/carvilsi/esp32-wifi-map)
 - [ESP32CAM Camera v1.0.0 (By Z4urce & eried)](https://github.com/eried/flipperzero-mayhem)
 - [ESP32CAM Marauder v0.6.4 (By 0xchocolate & eried)](https://github.com/eried/flipperzero-mayhem)
@@ -471,6 +479,7 @@ $ ./fbt dolphin_ext
 - [Video Player (By LTVA1)](https://github.com/LTVA1/flipper-zero-video-player)
 - [WAV Player v1.1 (By DrZlo13)](https://github.com/flipperdevices/flipperzero-firmware/tree/zlo/wav-player) Updated by Atmanos & RogueMaster To Work.  [Updated by xMasterX](https://github.com/DarkFlippers/unleashed-firmware/commit/76d3f84a5eb069b749e3ad20df6fdbbc785eb253)
 - [WAV Recorder (By scrolltex)](https://github.com/scrolltex/flipper-wav-recorder)
+- [WHC SWIO Flasher v1.0 (By sukvojte)](https://github.com/sukvojte/wch_swio_flasher)
 - [Weather Station (By Skorpionm)-OFW](https://github.com/flipperdevices/flipperzero-good-faps/tree/dev/weather_station)
 - [Wiegand Reader v1.2 (By jamisonderek)](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/gpio)
 - [WiFi (Deauther) V2 (By Timmotools)](https://github.com/Timmotools/flipperzero_esp8266_deautherv2) `Req: ESP8266`
